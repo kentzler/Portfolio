@@ -1,0 +1,197 @@
+/* ====================================
+GENERAL STYLES 
+====================================== */
+
+@font-face {
+    font-family: "CooperHewitt-Thin";
+    src: url("../fonts/CooperHewitt-Thin.woff") format('woff');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "CooperHewitt-ThinItalic";
+    src: url("../fonts/CooperHewitt-ThinItalic.woff") format('woff');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "CooperHewitt-Light";
+    src: url("../fonts/CooperHewitt-Light.woff") format('woff');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "CooperHewitt-LightItalic";
+    src: url("../fonts/CooperHewitt-LightItalic.woff") format('woff');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "CooperHewitt-Book";
+    src: url("../fonts/CooperHewitt-Book.woff") format('woff');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "CooperHewitt-BookItalic";
+    src: url("../fonts/CooperHewitt-BookItalic.woff") format('woff');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "CooperHewitt-Medium";
+    src: url("../fonts/CooperHewitt-Medium.woff") format('woff');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "CooperHewitt-MediumItalic";
+    src: url("../fonts/CooperHewitt-MediumItalic.woff") format('woff');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "CooperHewitt-Semibold";
+    src: url("../fonts/CooperHewitt-Semibold.woff") format('woff');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "CooperHewitt-SemiboldItalic";
+    src: url("../fonts/CooperHewitt-SemiboldItalic.woff") format('woff');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "CooperHewitt-Bold";
+    src: url("../fonts/CooperHewitt-Bold.woff") format('woff');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "CooperHewitt-BoldItalic";
+    src: url("../fonts/CooperHewitt-BoldItalic.woff") format('woff');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "CooperHewitt-Heavy";
+    src: url("../fonts/CooperHewitt-Heavy.woff") format('woff');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "CooperHewitt-HeavyItalic";
+    src: url("../fonts/CooperHewitt-HeavyItalic.woff") format('woff');
+    font-weight: 700;
+}
+
+
+
+
+* {
+	font-family: "CooperHewitt-Book";
+}
+
+html { 
+	font-size: 62.5%; 
+} 
+
+
+body { 
+	font-size: 18px;
+	font-size: 1.8rem; 
+}
+
+
+
+/* ====================================
+CUSTOM STYLES 
+======================================*/
+
+
+#intro {
+	height: 500px;
+	width: 100vw;
+	background-color: #fff;
+	background: url(../resources/me.jpg);
+	background-position: right top;
+	background-size: 290px 446px;
+	background-repeat: no-repeat;
+	background-position: 68vw 60px;
+}
+
+ div#top-bar{
+	/* Top Bar Decoration: */
+	height: 1vh;
+	background-color: #1CA8DF;
+}
+
+#navigation li a{
+	color: #526070;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-weight: 400;
+	line-height: 18px;
+	line-height: 1.8rem;
+}
+
+#navigation li a:hover{
+	border-bottom: 2px solid #1CA8DF;
+	padding-bottom: 2px;
+}
+
+
+
+.intro-text {
+	/*clear: both;*/
+	height:100%;
+	display: block;
+		
+}
+
+.intro-text p#hello {
+	padding-top: 150px;
+	font-family: CooperHewitt-Medium;
+	font-size: 24px;
+	font-size: 2.4rem;
+	color: #083040;
+	line-height: 36px;
+	line-height: 3.6rem;
+}
+
+.intro-text p#social-media-icons {
+	font-size: 2.4rem;
+	font-size: 24px;
+	color: #CCCCCC;
+}
+
+.intro-text p#social-media-icons a{
+	padding-right: 15px;
+	color: #CCCCCC;
+}
+
+#fb:hover{
+	color: #425D9C;
+}
+
+#twitter:hover{
+	color: #55ACEE;
+}
+
+#instagram:hover{
+	color: #99634D;
+}
+
+#dribbble:hover{
+	color: #E04D87;
+}
+
+
+#description {
+	height: 40vh;
+	width: 100vw;
+	background-color: #FAFAFA;
+}
